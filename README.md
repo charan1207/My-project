@@ -88,7 +88,7 @@ for eg:buyerdashboard.php
 //FOLDERS
 ---> images regarding webpages are given in img folder.
 ---> javascripts for validations and jqueries are given in js folder.
----> fonts for webpages are given in font folder.
+
 
 
 
