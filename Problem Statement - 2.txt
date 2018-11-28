@@ -1,0 +1,16 @@
+1) Write SQL to get the number of retailers available in the system.
+   SELECT COUNT(email) FROM sellertable;
+
+2) Write SQL to get the shoppers counts for each retailer .
+SELECT count(b_email), s_email from fruittable group by s_email;
+
+3) Write SQL to get all the shoppers count.
+SELECT count(email) as Shoppercount from fruittable;
+
+4) Write SQL to get purchase amount per day wrt to a retailer.
+SELECT sum(seller) FROM `fruittablepurchase` WHERE date='2018-11-26'
+
+5) Write SQL to find top retailer based on the number of purchases
+ SELECT firstname, email, COUNT(*) FROM sellers GROUP BY name, email HAVING  COUNT(*) > 1   
+
+	
